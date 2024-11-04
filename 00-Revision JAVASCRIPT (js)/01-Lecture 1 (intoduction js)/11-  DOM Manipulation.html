@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <script>
+    function clickFunction(){
+      console.log('button click');
+      document.getElementById('first').innerHTML='You are the best';
+      document.getElementsByTagName('h1')[0].style.color='red'
+    }
+
+  </script>
+</head>
+<body>
+  <h1>This is KG Coding</h1>
+  <p id="first">I'm learning right time to right teacher to right top</p>
+  <button id="my_button" onclick="clickFunction()">Click me</button>
+</body>
+</html>
