@@ -1,0 +1,4 @@
+{
+  "Name": "zikr",
+  "Type_of_Shop": "trr"
+}

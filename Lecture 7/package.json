@@ -1,0 +1,16 @@
+{
+  "name": "npm-learning",
+  "version": "1.0.0",
+  "description": "this is my learning npm for lecture 7 node js series",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js",
+    "khul-ja-sim-sim": "node App.js"
+  },
+  "author": "Mahammad Asad",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

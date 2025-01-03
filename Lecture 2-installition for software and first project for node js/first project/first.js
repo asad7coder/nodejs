@@ -6,9 +6,13 @@ console.log('kg coding is the best');
 //   if (err) console.log('Error accurred');
 //   else console.log('File writen Successfully');
 // })
+
 // > 2- create file for index.html
-const fs=require('fs');
-fs.writeFile('index.html',`<!DOCTYPE html>
+// core module
+const fs = require('fs');
+fs.writeFile(
+  'index.html',
+  `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -16,10 +20,11 @@ fs.writeFile('index.html',`<!DOCTYPE html>
   <title>Document</title>
 </head>
 <body>
-  
+<h1>Allah Hu Akbar</h1>  
 </body>
-</html>`, (err2)=>{
-  if (err2) console.log('html file Error Accurred');
-  else console.log('File 2 writen Successfully')
-  
-})
+</html>`,
+  (err2) => {
+    if (err2) console.log('html file Error Accurred');
+    else console.log('File 2 writen Successfully');
+  },
+);
